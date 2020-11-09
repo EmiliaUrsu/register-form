@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html >
+<head > 
+    
+    <title>Registration form</title>
+</head>
+<body bgcolor="papayawhip">
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <table border="0" align="center">
+        <tr>
+            <td bgcolor="lightgrey" height="50"> 
+                <h1>Create an account</h1>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <form action="thankyou.html">
+                    <fieldset>
+                        <legend>Personal information</legend>
+                    <label>
+                        What is your full name?
+                        <input type="text" required>
+                    </label>
+     <br>            
+     <br>
+                    <label>
+                        Gender:
+                        <br>
+                        <input type="radio" name="Gender" > F
+                        <input type="radio" name="Gender"> M
+                        <input type="radio" name="Gender"> Don't know yet
+                    </label>
+                    <br>
+                    <br>
+                   <label>
+                       Password:
+                   <input type="password" id="pwd" name="pwd" required>
+                   <br>
+                   <br>
+                </lable>
+                    <label>
+                        Your phone number ?
+                        <input type="text" maxlength="14">
+                    </label>
+                    <br>
+                    <br>
+
+                    <label>
+                        Your birthdate ?
+                        <input type="date">
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Your country ?
+                        <select required>
+                            <option>Moldova</option>
+                            <option>Romania</option>
+                            <option>Russia</option>
+                            <option>Ucraina</option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Education levels
+                        <br>
+                        <br>
+                        <input type="checkbox">Primary school <br>
+                        <input type="checkbox">High school <br>
+                        <input type="checkbox">University <br>
+                        <br>
+                    </label>
+                    </fieldset>
+                    <br>
+                    <br>
+                    
+                        <label for="preference">Your preferences:
+
+                        </label>
+                        <select name="preference" id="preference">
+                        <optgroup label="Rap">
+                        <option value="Highest in the room">Highest in the room by Travis Scott</option>
+                          <option value="G.E.T.O.">G.E.T.O by Geto boys</option>
+                          </optgroup>
+                        <optgroup label="country">
+                        <option value="The dance">The Dance by Garth Brooks</option>
+                        <option value="When you say nothing at all">When you say nothing at all by Keith Whitley</option>
+                        </optgroup>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                    <label for="reason">
+                        I register on this site for:
+                        <input list="reason" id="reason choice" name="reason choice">
+                        <datalist id="reason">
+                            <option value="For fun"></option>
+                            <option value="For education"></option>
+                            <option value="To socialize"></option>
+                        </datalist>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Something about yourself &#128527
+                        <small>(max:500 characters)</small>
+                        <br>
+                        <textarea></textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="checkbox" required> Agree with <a href="terms.html" target="_blank">terms and conditions!</a>
+                    </label>
+                    <hr>
+                    <button>Create</button>
+                    <input type="reset">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
